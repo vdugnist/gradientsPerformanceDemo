@@ -6,7 +6,7 @@
 //  Copyright © 2017 vdugnist. All rights reserved.
 //
 
-#import "TableViewController.h"
+#import "GradientsInCellsVC.h"
 #import "CAGradientTableViewCell.h"
 #import "CARasterizedGradientTableViewCell.h"
 #import "ImageGradientTableViewCell.h"
@@ -21,14 +21,23 @@ typedef NS_ENUM(NSUInteger, kTableViewType) {
     kTableViewTypeImageGradient,
 };
 
-@interface TableViewController () <UITableViewDataSource>
+@interface GradientsInCellsVC () <UITableViewDataSource>
 
 @property (nonatomic, weak) UISegmentedControl *segmentedControl;
 @property (nonatomic, weak) UITableView *tableView;
 
 @end
 
-@implementation TableViewController
+@implementation GradientsInCellsVC
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        self.title = @"In cells";
+    }
+    
+    return self;
+}
+
 
 - (void)loadView {
     UIView *view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "TableViewController.h"
+#import "GradientsInCellsVC.h"
+#import "GradientsAboveCellsVC.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    TableViewController *vc = [TableViewController new];
+    UITabBarController *vc = [UITabBarController new];
+    vc.viewControllers = @[[GradientsInCellsVC new], [GradientsAboveCellsVC new]];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];

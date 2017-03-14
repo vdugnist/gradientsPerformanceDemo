@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		FA033A0B1E72A12A005ED4ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033A0A1E72A12A005ED4ED /* main.m */; };
 		FA033A0E1E72A12A005ED4ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033A0D1E72A12A005ED4ED /* AppDelegate.m */; };
-		FA033A111E72A12A005ED4ED /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033A101E72A12A005ED4ED /* TableViewController.m */; };
+		FA033A111E72A12A005ED4ED /* GradientsInCellsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA033A101E72A12A005ED4ED /* GradientsInCellsVC.m */; };
 		FA033A161E72A12A005ED4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA033A151E72A12A005ED4ED /* Assets.xcassets */; };
 		FA033A191E72A12A005ED4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA033A171E72A12A005ED4ED /* LaunchScreen.storyboard */; };
 		FA3EDCD31E72A257002F5E1E /* CAGradientTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3EDCD21E72A257002F5E1E /* CAGradientTableViewCell.m */; };
 		FA3EDCD61E72A264002F5E1E /* ImageGradientTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3EDCD51E72A264002F5E1E /* ImageGradientTableViewCell.m */; };
 		FAC1B8C41E786D520080B3E4 /* CARasterizedGradientTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1B8C31E786D520080B3E4 /* CARasterizedGradientTableViewCell.m */; };
+		FAC1B8C91E7872D10080B3E4 /* GradientsAboveCellsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1B8C81E7872D10080B3E4 /* GradientsAboveCellsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +23,8 @@
 		FA033A0A1E72A12A005ED4ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA033A0C1E72A12A005ED4ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA033A0D1E72A12A005ED4ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA033A0F1E72A12A005ED4ED /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		FA033A101E72A12A005ED4ED /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FA033A0F1E72A12A005ED4ED /* GradientsInCellsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientsInCellsVC.h; sourceTree = "<group>"; };
+		FA033A101E72A12A005ED4ED /* GradientsInCellsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientsInCellsVC.m; sourceTree = "<group>"; };
 		FA033A151E72A12A005ED4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA033A181E72A12A005ED4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA033A1A1E72A12A005ED4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +34,8 @@
 		FA3EDCD51E72A264002F5E1E /* ImageGradientTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGradientTableViewCell.m; sourceTree = "<group>"; };
 		FAC1B8C21E786D520080B3E4 /* CARasterizedGradientTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CARasterizedGradientTableViewCell.h; sourceTree = "<group>"; };
 		FAC1B8C31E786D520080B3E4 /* CARasterizedGradientTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CARasterizedGradientTableViewCell.m; sourceTree = "<group>"; };
+		FAC1B8C71E7872D10080B3E4 /* GradientsAboveCellsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientsAboveCellsVC.h; sourceTree = "<group>"; };
+		FAC1B8C81E7872D10080B3E4 /* GradientsAboveCellsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientsAboveCellsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +70,8 @@
 			children = (
 				FA033A0C1E72A12A005ED4ED /* AppDelegate.h */,
 				FA033A0D1E72A12A005ED4ED /* AppDelegate.m */,
-				FA033A0F1E72A12A005ED4ED /* TableViewController.h */,
-				FA033A101E72A12A005ED4ED /* TableViewController.m */,
-				FA3EDCD11E72A257002F5E1E /* CAGradientTableViewCell.h */,
-				FA3EDCD21E72A257002F5E1E /* CAGradientTableViewCell.m */,
-				FAC1B8C21E786D520080B3E4 /* CARasterizedGradientTableViewCell.h */,
-				FAC1B8C31E786D520080B3E4 /* CARasterizedGradientTableViewCell.m */,
-				FA3EDCD41E72A264002F5E1E /* ImageGradientTableViewCell.h */,
-				FA3EDCD51E72A264002F5E1E /* ImageGradientTableViewCell.m */,
+				FAC1B8C61E7872340080B3E4 /* Gradients above cells */,
+				FAC1B8C51E78721C0080B3E4 /* Gradients in cells */,
 				FA033A151E72A12A005ED4ED /* Assets.xcassets */,
 				FA033A171E72A12A005ED4ED /* LaunchScreen.storyboard */,
 				FA033A1A1E72A12A005ED4ED /* Info.plist */,
@@ -89,6 +86,30 @@
 				FA033A0A1E72A12A005ED4ED /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC1B8C51E78721C0080B3E4 /* Gradients in cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA033A0F1E72A12A005ED4ED /* GradientsInCellsVC.h */,
+				FA033A101E72A12A005ED4ED /* GradientsInCellsVC.m */,
+				FA3EDCD11E72A257002F5E1E /* CAGradientTableViewCell.h */,
+				FA3EDCD21E72A257002F5E1E /* CAGradientTableViewCell.m */,
+				FAC1B8C21E786D520080B3E4 /* CARasterizedGradientTableViewCell.h */,
+				FAC1B8C31E786D520080B3E4 /* CARasterizedGradientTableViewCell.m */,
+				FA3EDCD41E72A264002F5E1E /* ImageGradientTableViewCell.h */,
+				FA3EDCD51E72A264002F5E1E /* ImageGradientTableViewCell.m */,
+			);
+			name = "Gradients in cells";
+			sourceTree = "<group>";
+		};
+		FAC1B8C61E7872340080B3E4 /* Gradients above cells */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1B8C71E7872D10080B3E4 /* GradientsAboveCellsVC.h */,
+				FAC1B8C81E7872D10080B3E4 /* GradientsAboveCellsVC.m */,
+			);
+			name = "Gradients above cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,8 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA033A111E72A12A005ED4ED /* TableViewController.m in Sources */,
+				FA033A111E72A12A005ED4ED /* GradientsInCellsVC.m in Sources */,
 				FA3EDCD61E72A264002F5E1E /* ImageGradientTableViewCell.m in Sources */,
+				FAC1B8C91E7872D10080B3E4 /* GradientsAboveCellsVC.m in Sources */,
 				FA3EDCD31E72A257002F5E1E /* CAGradientTableViewCell.m in Sources */,
 				FA033A0E1E72A12A005ED4ED /* AppDelegate.m in Sources */,
 				FAC1B8C41E786D520080B3E4 /* CARasterizedGradientTableViewCell.m in Sources */,
